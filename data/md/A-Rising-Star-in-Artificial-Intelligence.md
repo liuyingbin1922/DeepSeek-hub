@@ -1,5 +1,5 @@
 ---
-title: DeepSeek Model: A Rising Star in Artificial Intelligence
+title: A Rising Star in Artificial Intelligence
 description: This article delves into the principles, features, and real-world applications of the DeepSeek model, offering a comprehensive understanding of its significance in AI.
 date: '2024-08-11T13:14:40.737Z'
 lastModified: '2024-11-06T03:24:55.263Z'
