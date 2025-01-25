@@ -7,8 +7,8 @@ import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Deepseek-Hub aggregates the most valuable Deepseek-related information, including AI best practices, highly valuable news, and more.',
-  description: 'Deepseek Hub aggregates the best Deepseek-related information, including the top AI practices based on Deepseek, as well as updates from official sources and mainstream media.',
+  title: 'Deepseek-Hub aggregates the most valuable Deepseek-related information',
+  description: 'Deepseek Hub aggregates the best Deepseek-related information, including the top AI practices based on Deepseek, as well as updates from official sources.',
 }
 
 export default function Home() {
