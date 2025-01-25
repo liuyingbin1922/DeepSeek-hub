@@ -3,5 +3,15 @@
     "name": "DeepSeek",
     "description": "DeepSeek, unravel the mystery of AGI with curiosity. Answer the essential question with long-termism.",
     "url": "https://www.deepseek.com/"
+  },
+  {
+    "name": "DeepSeek-R1",
+    "description": "DeepSeek-R1-Zero, a model trained via large-scale reinforcement learning (RL) without supervised fine-tuning (SFT) as a preliminary step, demonstrated remarkable performance on reasoning",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+  },
+  {
+    "name": "DeepSeek Coder",
+    "description": "DeepSeek Coder: Let the Code Write Itself",
+    "url": "https://deepseekcoder.github.io/"
   }
 ]
