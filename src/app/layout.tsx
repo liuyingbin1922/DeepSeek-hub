@@ -7,11 +7,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
-  title: {
-    default: 'GitBase',
-    template: '%s | GitBase'
-  },
+  title: 'Deepseek-Hub aggregates the most valuable Deepseek-related information',
   description: 'Open source dynamic website without database, built with Next.js and GitHub API',
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  }
 }
 
 interface RootLayoutProps {

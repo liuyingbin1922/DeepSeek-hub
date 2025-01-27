@@ -9,6 +9,11 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Deepseek-Hub aggregates the most valuable Deepseek-related information',
   description: 'Deepseek Hub aggregates the best Deepseek-related information, including the top AI practices based on Deepseek, as well as updates from official sources.',
+  icons: {
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  }
 }
 
 export default function Home() {
