@@ -19,5 +19,12 @@
     "date": "2025-01-27T13:14:40.737Z",
     "lastModified": "2025-01-27T14:33:39Z",
     "path": "data/md/deep-seek-r1-is-here.md"
+  },
+  {
+    "title": "🔥 We can build DeepSeek locally!",
+    "description": "how we can build DeepSeek using Ollama.",
+    "date": "2025-01-27T13:14:40.737Z",
+    "lastModified": "2025-01-27T14:33:39Z",
+    "path": "data/md/build-deep-seek-local.md"
   }
 ]
