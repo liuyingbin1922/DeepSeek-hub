@@ -1,6 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Layout } from '@/components/Layout'
+import PlausibleProvider from 'next-plausible'
+
 import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,7 +26,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Layout>{children}</Layout>
+        <PlausibleProvider domain="deepseek-hub.site">
+          <Layout>{children}</Layout>
+        </PlausibleProvider>
       </body>
     </html>
   )
