@@ -26,5 +26,12 @@
     "date": "2025-01-27T13:14:40.737Z",
     "lastModified": "2025-01-27T14:33:39Z",
     "path": "data/md/build-deep-seek-local.md"
+  },
+  {
+    "title": "🔥 A Comprehensive Guide to Local Deployment and Optimization",
+    "description": "This article introduces new ways about how to run deepseek model locally.",
+    "date": "2025-01-27T13:14:40.737Z",
+    "lastModified": "2025-01-28T14:33:39Z",
+    "path": "data/md/run-deep-seek-local.md"
   }
 ]
