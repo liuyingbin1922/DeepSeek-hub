@@ -1,11 +1,12 @@
 'use client'
-
+import React from 'react'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { Github } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import Head from 'next/head';
+
 
 const navItems = [
   { path: '/', label: 'Home' },
@@ -18,6 +19,8 @@ export function Navigation() {
   const router = useRouter()
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
+
+  const canonicalUrl = `https://yourdomain.com${router.asPath}`;
 
   useEffect(() => {
     let isMounted = true;
@@ -54,6 +57,9 @@ export function Navigation() {
 
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
       <div className="container flex h-16 items-center justify-between">
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
