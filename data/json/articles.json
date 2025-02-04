@@ -40,5 +40,12 @@
     "date": "2025-01-28T13:14:40.737Z",
     "lastModified": "2025-01-29T14:33:39Z",
     "path": "data/md/ai-model.md"
+  },
+  {
+    "title": "🚀  A tool that uses DeepSeek to achieve low-cost real-time translation of YouTube videos.",
+    "description": " A tool that uses DeepSeek to achieve low-cost real-time translation of YouTube videos.",
+    "date": "2025-02-03T13:14:40.737Z",
+    "lastModified": "2025-02-04T14:33:39Z",
+    "path": "data/md/deepseek-youtube.md"
   }
 ]
