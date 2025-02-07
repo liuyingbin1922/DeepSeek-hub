@@ -31,6 +31,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Layout>{children}</Layout>
         </PlausibleProvider>
       </body>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5306879059555308"
+     crossOrigin="anonymous">
+     </script>
     </html>
   )
 }
