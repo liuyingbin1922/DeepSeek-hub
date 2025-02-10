@@ -47,5 +47,12 @@
     "date": "2025-02-03T13:14:40.737Z",
     "lastModified": "2025-02-04T14:33:39Z",
     "path": "data/md/deepseek-youtube.md"
+  },
+  {
+    "title": "🐍 We can run the DeepSeek model on our Android devices.",
+    "description": " We can run the DeepSeek model on our Android devices.",
+    "date": "2025-02-09T13:14:40.737Z",
+    "lastModified": "2025-02-10T14:33:39Z",
+    "path": "data/md/run-deepseek-locally.md"
   }
 ]
