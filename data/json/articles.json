@@ -54,5 +54,12 @@
     "date": "2025-02-09T13:14:40.737Z",
     "lastModified": "2025-02-10T14:33:39Z",
     "path": "data/md/run-deepseek-locally.md"
+  },
+  {
+    "title": "🔥 Deep Research using DeepSeek.",
+    "description": " We can run the DeepSeek model for deep research.",
+    "date": "2025-02-16T13:14:40.737Z",
+    "lastModified": "2025-02-16T14:33:39Z",
+    "path": "data/md/deep-research-using-deepseek.md"
   }
 ]
