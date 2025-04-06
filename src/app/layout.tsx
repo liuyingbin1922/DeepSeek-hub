@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { Layout } from '@/components/Layout'
 import PlausibleProvider from 'next-plausible'
+import { Analytics } from "@vercel/analytics/react"
 
 import { Metadata } from 'next'
 
@@ -26,9 +27,10 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+    <body className={inter.className}>
         <PlausibleProvider domain="deepseek-hub.site">
-          <Layout>{children}</Layout>
+            <Layout>{children}</Layout>
+            <Analytics />
         </PlausibleProvider>
       </body>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5306879059555308"
