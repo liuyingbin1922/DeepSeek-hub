@@ -2,8 +2,8 @@
   {
     "title": "DeepSeek Model: A Rising Star in Artificial Intelligence",
     "description": "This article delves into the principles, features, and real-world applications of the DeepSeek model, offering a comprehensive understanding of its significance in AI.",
-    "date": "2024-08-11T13:14:40.737Z",
-    "lastModified": "2025-01-23T14:33:39Z",
+    "date": "2024-12-11T13:14:40.737Z",
+    "lastModified": "2025-01-01T14:33:39Z",
     "path": "data/md/A-Rising-Star-in-Artificial-Intelligence.md"
   },
   {
@@ -57,9 +57,16 @@
   },
   {
     "title": "🔥 Deep Research using DeepSeek.",
-    "description": " We can run the DeepSeek model for deep research.",
+    "description": "We can run the DeepSeek model for deep research.",
     "date": "2025-02-16T13:14:40.737Z",
     "lastModified": "2025-02-16T14:33:39Z",
     "path": "data/md/deep-research-using-deepseek.md"
+  },
+  {
+    "title": "几 We can run the DeepSeek model on our Android devices.",
+    "description": " We can run the DeepSeek model on our Android devices.",
+    "date": "2025-02-09T13:14:40.737Z",
+    "lastModified": "2025-02-10T14:33:39Z",
+    "path": "data/md/run-deepseek-locally.md"
   }
 ]

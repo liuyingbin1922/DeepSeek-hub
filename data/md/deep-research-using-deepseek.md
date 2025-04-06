@@ -1,9 +1,10 @@
 ---
-title: A Rising Star in Artificial Intelligence
-description: This article delves into the principles, features, and real-world applications of the DeepSeek model, offering a comprehensive understanding of its significance in AI.
-date: '2024-08-11T13:14:40.737Z'
-lastModified: '2024-11-06T03:24:55.263Z'
+title: 🚀 Deep Research using DeepSeek
+description: Deep Research using DeepSeek.
+date: '2025-02-15T15:14:40.737Z'
+lastModified: '2025-02-16T13:24:55.263Z'
 ---
+
 # Deep Research using DeepSeek
 
 I find a open source implementation of OpenAI's new Deep Research agent. Get the same capability without paying $200.

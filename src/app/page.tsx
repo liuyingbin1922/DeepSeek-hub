@@ -6,6 +6,7 @@ import { getSortedPostsData } from '@/lib/posts'
 import ResourceList from '@/components/ResourceList'
 import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
+import FAQ from '@/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Deepseek-Hub aggregates the most valuable Deepseek-related information',
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 export default function Home() {
   const resourcesPath = path.join(process.cwd(), 'data', 'json', 'resources.json')
   const resources = JSON.parse(fs.readFileSync(resourcesPath, 'utf8'))
-  const allPostsData = getSortedPostsData().slice(0, 6)
+  const allPostsData = getSortedPostsData()
 
   return (
     <div className="container mx-auto py-12 space-y-16">
@@ -36,6 +37,7 @@ export default function Home() {
 
       <ResourceList resources={resources} />
       <ArticleList articles={allPostsData} />
+      <FAQ />
     </div>
   )
 }

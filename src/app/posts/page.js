@@ -9,6 +9,7 @@ export const metadata = {
 export default function Articles() {
   const allPostsData = getSortedPostsData();
 
+  console.log('aallPostsData', allPostsData);
 
   return (
     <div className="container mx-auto py-12">
