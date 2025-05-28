@@ -18,5 +18,10 @@
     "name": "Deep Research using DeepSeek",
     "description": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.",
     "url": "https://github.com/dzhng/deep-research"
+  },
+  {
+    "name": "DeepSeek-LLM",
+    "description": "DeepSeek-LLM is a collection of LLM models, including DeepSeek-R1, DeepSeek-R1-Zero, DeepSeek-Coder, and DeepSeek-Chat.",
+    "url": "https://github.com/deepseek-ai/DeepSeek-LLM"
   }
 ]
